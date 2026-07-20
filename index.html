@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Gerador de Senhas</h2>
+        <p>Preencha os campos abaixo para gerar sua chave aleatória:</p>
+
+        <!-- Criando a coleta de dados para o geramento da senha -->
+        <label>Nome (seu ou de alguém importante):</label>
+        <input type="text" id="nome" placeholder="Ex: Maria">
+
+        <label>Número da sorte:</label>
+        <input type="text" id="numero" placeholder="Ex: 7">
+
+        <label>Nome de um animal:</label>
+        <input type="text" id="animal" placeholder="Ex: Gato">
+
+        <label>Data importante:</label>
+        <input type="text" id="data" placeholder="Ex: 1205">
+
+        <label>Um caractere especial:</label>
+        <input type="text" id="caractere" placeholder="Ex: @">
+
+        <button id="btnGerar">Gerar Senha</button>
+
+        <!-- output para o usuario -->
+        <div id="status"></div>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
